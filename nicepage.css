@@ -44390,9 +44390,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  min-height: 16px;
+
+.u-header .u-sheet-1 {
+  min-height: 100px;
 }
+
+
+
+
 
 
 
@@ -44402,15 +44407,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 11px;
 }
 
 
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 220px;
-  }
-}
+
 
 
  /*begin-variables base-font-size*/ 
