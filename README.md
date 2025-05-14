@@ -24,7 +24,7 @@ From filmmakers to editors, storytellers to designers — this is your space to 
 
 ## 📄 License
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
-See the [LICENSE](./LICENSE) file for more information.
+See the [LICENSE](./LICENSE.md) file for more information.
 
 For full license details, visit: https://creativecommons.org/licenses/by-nc/4.0/
 
