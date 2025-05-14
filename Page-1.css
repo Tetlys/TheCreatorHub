@@ -1,0 +1,225 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 398px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 135px;
+  margin-bottom: 50px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 213px;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 30px 30px 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 213px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 0 8px 30px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 8px 13px 0 3px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 361px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 176px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 176px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 236px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+} .u-section-2 {
+  min-height: 600px;
+}
+
+.u-section-2 .u-video-1 {
+  min-height: 606px;
+}
+
+.u-section-2 .embed-responsive-1 {
+  position: absolute;
+}.u-section-3 .u-sheet-1 {
+  min-height: 252px;
+}
+
+.u-section-3 .u-custom-html-1 {
+  height: auto;
+  min-height: 254px;
+  margin: 0 -32px -2px -62px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-custom-html-1 {
+    width: 940px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 331px;
+  }
+
+  .u-section-3 .u-custom-html-1 {
+    min-height: 275px;
+    width: 1202px;
+    margin: 28px -241px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-custom-html-1 {
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-custom-html-1 {
+    width: 340px;
+  }
+}/* 1) Unclamp all ConvertKit wrappers to full width */
+.formkit-form,
+.formkit-wrapper,
+.formkit-powered-by-convertkit,
+.formkit-background,
+.formkit-container,
+.formkit-content,
+.formkit-fields,
+.formkit-field,
+.formkit-inner,
+.formkit-grid,
+.formkit-column,
+.formkit-row {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+/* 2) Unclamp any surrounding site containers */
+body *,
+.container,
+.section,
+.wrapper,
+.content,
+.content-wrapper,
+.page-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+/* 3) Force any iframes to full width */
+iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+/* 4) Center & size the form, overlap the video */
+.formkit-form {
+  width: 100% !important;
+  max-width: 1000px !important;     /* adjust as needed */
+  margin: 0 auto !important;
+  padding: 20px 10px 0 !important;  /* remove bottom padding */
+  box-sizing: border-box !important;
+  position: relative !important;
+  top: -30px !important;            /* default overlap amount */
+  background: #fff !important;
+  border-radius: 0 !important;      /* remove rounding */
+  z-index: 2 !important;
+  border-bottom: 4px solid red !important; /* red bottom border */
+}
+/* 5) Remove all other borders/shadows/backgrounds */
+.formkit-form-container,
+.formkit-wrapper,
+.formkit-powered-by-convertkit,
+.formkit-background,
+.formkit-container,
+.formkit-content {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+/* 6) Mobile-specific overrides to close the gap */
+@media (max-width: 768px) {
+  .formkit-form {
+    top: -30px !important;         /* deeper overlap on small screens */
+    max-width: 95% !important;      /* slight side padding */
+  }
+}
+/* 7) Laptop-specific overrides */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .formkit-form {
+    top: -30px !important;          /* moderate overlap on laptops */
+    max-width: 95% !important;      /* adjust width for laptop view */
+  }
+}
+.Override.parent.container.limits.container.section.wrapper.formkit-wrapper.max-width.important.width.important.Specifically.target.ConvertKit.embed.area.formkit-form.formkit-powered-by-convertkit.max-width.important.width.important.display.block.margin.auto.Optional.Adjust.inner.form.field.widths.formkit-field.width.important.max-width.important.Optional.Add.some.padding.so.it.breathes.formkit-form.padding.px {
+}
