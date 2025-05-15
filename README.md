@@ -31,9 +31,9 @@ For full license details, visit: https://creativecommons.org/licenses/by-nc/4.0/
 ---
 
 ## 🔗 Useful Links
-- 🌐 Creator Hub Website: https://yourdomain.com
-- 📩 Subscribe to the Newsletter: [Newsletter Link]
-- 🎉 Join Our Discord: [Discord Invite Link]
+- 🌐 Creator Hub Website: https://thecreatorhub.digital/
+- 📩 Subscribe to the Newsletter: https://thecreatorhub.digital/subscribe/
+- 🎉 Join Our Discord: https://discord.thecreatorhub.digital/
 - 🛡️ Cloudflare Pages Docs: https://developers.cloudflare.com/pages/
 
 ---
