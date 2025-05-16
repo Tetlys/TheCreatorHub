@@ -110,11 +110,6 @@
 
 .u-section-3 .u-layout-cell-1 {
   min-height: 476px;
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -127,11 +122,6 @@
 
 .u-section-3 .u-layout-cell-2 {
   min-height: 476px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -152,11 +142,19 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     min-height: 392px;
   }
 
   .u-section-3 .u-layout-cell-2 {
     --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
     --top-left-radius: 100px;
     --bottom-right-radius: 100px;
@@ -243,11 +241,6 @@
   min-height: 566px;
   background-image: url("images/image1.png");
   background-position: 50% 50%;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -256,11 +249,6 @@
 
 .u-section-5 .u-layout-cell-2 {
   min-height: 566px;
-  --animation-custom_in-translate_x: 300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
 }
 
 .u-section-5 .u-container-layout-2 {
@@ -282,10 +270,20 @@
   }
 
   .u-section-5 .u-image-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     min-height: 467px;
   }
 
   .u-section-5 .u-layout-cell-2 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     min-height: 467px;
   }
 }
