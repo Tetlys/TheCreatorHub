@@ -330,51 +330,34 @@
     min-height: 405px;
   }
 }.u-section-6 .u-sheet-1 {
-  min-height: 806px;
+  min-height: 546px;
 }
 
 .u-section-6 .u-text-1 {
-  margin: 33px 0 16px;
+  margin: 33px 0 0;
 }
 
 @media (max-width: 767px) {
   .u-section-6 .u-text-1 {
     margin-top: 60px;
+    margin-bottom: 60px;
   }
-} .u-section-7 {
-  background-image: none;
-}
-
-.u-section-7 .u-sheet-1 {
-  min-height: 524px;
-}
-
-.u-section-7 .u-text-1 {
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-  .u-section-7 .u-text-1 {
-    margin-top: 60px;
-  }
-}.u-section-8 .u-sheet-1 {
+}.u-section-7 .u-sheet-1 {
   min-height: 377px;
 }
 
-.u-section-8 .u-image-1 {
+.u-section-7 .u-image-1 {
   width: 189px;
   height: 189px;
-  background-image: url("images/ChatGPTImageMay11202508_41_32PM.png?rand=cc0b");
+  background-image: url("images/CreatorHub_servericon.png?rand=afef");
   background-position: 50% 50%;
   margin: 36px auto 0;
 }
 
-.u-section-8 .u-text-1 {
+.u-section-7 .u-text-1 {
   margin: 41px auto 0;
 }
 
-.u-section-8 .u-text-2 {
+.u-section-7 .u-text-2 {
   margin: 20px 0 12px;
 }
